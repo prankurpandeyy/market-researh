@@ -1,4 +1,4 @@
-import { SavedQueryCard } from "../components/SavedQueryCard";
+import SavedQueryCard from "@/app/components/SavedQueryCard";
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
 
@@ -14,7 +14,7 @@ export default function SavedQueriesPage() {
       text: "Compare smartphone prices on Flipkart and Amazon",
       lastRun: "2023-03-28T14:30:00Z",
     },
-    // ... more saved queries
+   
   ];
 
   return (

@@ -1,7 +1,7 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-export function SavedQueryCard({ query }) {
+function SavedQueryCard({ query }) {
   return (
     <Card>
       <CardContent className="pt-6">
@@ -25,3 +25,4 @@ export function SavedQueryCard({ query }) {
     </Card>
   );
 }
+export default SavedQueryCard;
